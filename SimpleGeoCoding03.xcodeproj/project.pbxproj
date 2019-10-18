@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E5DB1B12358265200C2BB1E /* CLPlacemarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DB1B02358265200C2BB1E /* CLPlacemarks.swift */; };
+		4E5DB1B323582E2000C2BB1E /* Plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DB1B223582E2000C2BB1E /* Plist.plist */; };
 		4EBA6EE32350487300B02866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6EE22350487300B02866 /* AppDelegate.swift */; };
 		4EBA6EE52350487300B02866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6EE42350487300B02866 /* ViewController.swift */; };
 		4EBA6EE82350487400B02866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA6EE62350487400B02866 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E5DB1B02358265200C2BB1E /* CLPlacemarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemarks.swift; sourceTree = "<group>"; };
+		4E5DB1B223582E2000C2BB1E /* Plist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Plist.plist; sourceTree = "<group>"; };
 		4EBA6EDF2350487300B02866 /* SimpleGeoCoding03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGeoCoding03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBA6EE22350487300B02866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EBA6EE42350487300B02866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +45,7 @@
 		4EBA6ED62350487300B02866 = {
 			isa = PBXGroup;
 			children = (
+				4E5DB1B02358265200C2BB1E /* CLPlacemarks.swift */,
 				4EBA6EE12350487300B02866 /* SimpleGeoCoding03 */,
 				4EBA6EE02350487300B02866 /* Products */,
 				4EBA6EF4235049AE00B02866 /* Frameworks */,
@@ -63,6 +68,7 @@
 				4EBA6EE62350487400B02866 /* Main.storyboard */,
 				4EBA6EE92350488E00B02866 /* Assets.xcassets */,
 				4EBA6EEB2350488E00B02866 /* LaunchScreen.storyboard */,
+				4E5DB1B223582E2000C2BB1E /* Plist.plist */,
 				4EBA6EEE2350488E00B02866 /* Info.plist */,
 			);
 			path = SimpleGeoCoding03;
@@ -135,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBA6EED2350488E00B02866 /* LaunchScreen.storyboard in Resources */,
+				4E5DB1B323582E2000C2BB1E /* Plist.plist in Resources */,
 				4EBA6EEA2350488E00B02866 /* Assets.xcassets in Resources */,
 				4EBA6EE82350487400B02866 /* Main.storyboard in Resources */,
 			);
@@ -149,6 +156,7 @@
 			files = (
 				4EBA6EE52350487300B02866 /* ViewController.swift in Sources */,
 				4EBA6EE32350487300B02866 /* AppDelegate.swift in Sources */,
+				4E5DB1B12358265200C2BB1E /* CLPlacemarks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
